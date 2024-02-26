@@ -18,9 +18,19 @@
         "version": "2.2.0",
         "cells": [],
         "description": "Diagrama de flujo de datos para el sitio web de la biblioteca universitaria"
+      },
+      {
+        "id": 1,
+        "title": "Nuevo diagrama STRIDE",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.2.0",
+        "cells": [],
+        "description": "Diagrama de flujo de datos de inicio de sesión del usuario para el sitio web de la biblioteca universitaria"
       }
     ],
-    "diagramTop": 1,
+    "diagramTop": 2,
     "reviewer": "Victor",
     "threatTop": 0
   }
