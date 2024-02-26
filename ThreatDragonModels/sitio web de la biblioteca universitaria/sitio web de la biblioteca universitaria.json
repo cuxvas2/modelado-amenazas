@@ -38,8 +38,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "6db323e5-11a0-4653-b375-79e17cdf09b8",
             "zIndex": 1,
+            "id": "6db323e5-11a0-4653-b375-79e17cdf09b8",
             "data": {
               "type": "tm.Actor",
               "name": "Usuario",
@@ -86,8 +86,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "e625f367-2143-400a-be79-18338b8e7e62",
             "zIndex": 2,
+            "id": "e625f367-2143-400a-be79-18338b8e7e62",
             "data": {
               "type": "tm.Actor",
               "name": "Bibliotecario",
@@ -134,8 +134,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "ff35d011-36fe-4ceb-ad82-3eeed03111fc",
             "zIndex": 3,
+            "id": "ff35d011-36fe-4ceb-ad82-3eeed03111fc",
             "data": {
               "type": "tm.Process",
               "name": "Sitio web biblioteca",
@@ -211,15 +211,15 @@
               ]
             },
             "id": "5d4f564f-a281-4b05-a4bd-3acfd9fdc83b",
+            "labels": [
+              "Web Request"
+            ],
             "source": {
               "cell": "6db323e5-11a0-4653-b375-79e17cdf09b8"
             },
             "target": {
               "cell": "ff35d011-36fe-4ceb-ad82-3eeed03111fc"
             },
-            "labels": [
-              "Web Request"
-            ],
             "vertices": []
           },
           {
@@ -269,15 +269,15 @@
               ]
             },
             "id": "32555aba-2303-4901-a122-eb11b12ae44f",
+            "labels": [
+              "Web Response"
+            ],
             "source": {
               "cell": "ff35d011-36fe-4ceb-ad82-3eeed03111fc"
             },
             "target": {
               "cell": "6db323e5-11a0-4653-b375-79e17cdf09b8"
             },
-            "labels": [
-              "Web Response"
-            ],
             "vertices": [
               {
                 "x": 280,
@@ -332,16 +332,16 @@
               ]
             },
             "id": "c8b92253-c2a8-49d2-b533-56c6e7854a0d",
+            "labels": [
+              "Web Request"
+            ],
             "source": {
               "cell": "e625f367-2143-400a-be79-18338b8e7e62"
             },
             "target": {
               "cell": "ff35d011-36fe-4ceb-ad82-3eeed03111fc"
             },
-            "vertices": [],
-            "labels": [
-              "Web Request"
-            ]
+            "vertices": []
           },
           {
             "shape": "flow",
@@ -390,15 +390,15 @@
               ]
             },
             "id": "4720b094-cf28-49d3-bfca-fae3c3e6e746",
+            "labels": [
+              "Web Response"
+            ],
             "source": {
               "cell": "ff35d011-36fe-4ceb-ad82-3eeed03111fc"
             },
             "target": {
               "cell": "e625f367-2143-400a-be79-18338b8e7e62"
             },
-            "labels": [
-              "Web Response"
-            ],
             "vertices": [
               {
                 "x": 410,
@@ -452,15 +452,15 @@
               ]
             },
             "id": "284157d2-58e4-44d9-89df-510904f32427",
+            "labels": [
+              "Queries"
+            ],
             "source": {
               "cell": "ff35d011-36fe-4ceb-ad82-3eeed03111fc"
             },
             "target": {
               "cell": "d0a195e8-2e07-4fb7-9ca2-8f63f76a8cd4"
             },
-            "labels": [
-              "Queries"
-            ],
             "vertices": []
           },
           {
@@ -509,15 +509,15 @@
               ]
             },
             "id": "a47a0f5f-3b76-4627-a3cc-3ecb13eca5f9",
+            "labels": [
+              "Resultados\nWeb App Query"
+            ],
             "source": {
               "cell": "d0a195e8-2e07-4fb7-9ca2-8f63f76a8cd4"
             },
             "target": {
               "cell": "ff35d011-36fe-4ceb-ad82-3eeed03111fc"
             },
-            "labels": [
-              "Resultados\nWeb App Query"
-            ],
             "vertices": [
               {
                 "x": 470,
@@ -557,15 +557,15 @@
               "threats": []
             },
             "id": "1bf042c0-5da0-4cdc-8239-018062ef00e1",
-            "source": {
-              "cell": "ff35d011-36fe-4ceb-ad82-3eeed03111fc"
-            },
-            "target": {
-              "cell": "39dcc8dc-85e2-41cc-87ae-b26b2e216ca5"
-            },
             "labels": [
               "Páginas"
-            ]
+            ],
+            "source": {
+              "cell": "39dcc8dc-85e2-41cc-87ae-b26b2e216ca5"
+            },
+            "target": {
+              "cell": "ff35d011-36fe-4ceb-ad82-3eeed03111fc"
+            }
           },
           {
             "shape": "flow",
@@ -599,15 +599,15 @@
               "threats": []
             },
             "id": "d4d03c6b-b860-4c83-b12c-bf806172be58",
-            "source": {
-              "cell": "ff35d011-36fe-4ceb-ad82-3eeed03111fc"
-            },
-            "target": {
-              "cell": "a0c5922b-c291-4f9e-93c5-ceaf152f354f"
-            },
             "labels": [
               "Lee web\napp config"
-            ]
+            ],
+            "source": {
+              "cell": "a0c5922b-c291-4f9e-93c5-ceaf152f354f"
+            },
+            "target": {
+              "cell": "ff35d011-36fe-4ceb-ad82-3eeed03111fc"
+            }
           },
           {
             "position": {
@@ -635,8 +635,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "a0c5922b-c291-4f9e-93c5-ceaf152f354f",
             "zIndex": 11,
+            "id": "a0c5922b-c291-4f9e-93c5-ceaf152f354f",
             "data": {
               "type": "tm.Store",
               "name": "Web Application Config",
@@ -692,8 +692,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "d0a195e8-2e07-4fb7-9ca2-8f63f76a8cd4",
             "zIndex": 12,
+            "id": "d0a195e8-2e07-4fb7-9ca2-8f63f76a8cd4",
             "data": {
               "type": "tm.Store",
               "name": "Base de datos",
@@ -738,8 +738,8 @@
           },
           {
             "position": {
-              "x": 350,
-              "y": 410
+              "x": 290,
+              "y": 380
             },
             "size": {
               "width": 120,
@@ -760,8 +760,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "39dcc8dc-85e2-41cc-87ae-b26b2e216ca5",
             "zIndex": 13,
+            "id": "39dcc8dc-85e2-41cc-87ae-b26b2e216ca5",
             "data": {
               "type": "tm.Store",
               "name": "Páginas web en disco",
